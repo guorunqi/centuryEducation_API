@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: api
+  datasource:
+    url: jdbc:mysql://47.104.4.114:3306/jypght
+    username: jypght
+    password: laoma_2019
+server:
+  address: 127.0.0.1
+  port: 9090
+---
+mybatis:
+  typeAliasesPackage: com.example.demo.domain
+  mapperLocations: classpath:mybatis/*.xml
